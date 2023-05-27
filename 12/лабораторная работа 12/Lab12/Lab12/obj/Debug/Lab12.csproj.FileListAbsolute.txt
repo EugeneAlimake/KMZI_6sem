@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\bin\Debug\Lab12.exe.config
 C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\bin\Debug\Lab12.exe
 C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\bin\Debug\Lab12.pdb
@@ -5,3 +6,12 @@ C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 1
 C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\obj\Debug\Lab12.csproj.CoreCompileInputs.cache
 C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\obj\Debug\Lab12.exe
 C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\obj\Debug\Lab12.pdb
+=======
+C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\bin\Debug\Lab12.exe.config
+C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\bin\Debug\Lab12.exe
+C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\bin\Debug\Lab12.pdb
+C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\obj\Debug\Lab12.csproj.AssemblyReference.cache
+C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\obj\Debug\Lab12.csproj.CoreCompileInputs.cache
+C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\obj\Debug\Lab12.exe
+C:\Users\thesi\Desktop\6\Крипта\12\лабораторная работа 12\Lab12\Lab12\obj\Debug\Lab12.pdb
+>>>>>>> e05ea73e4443b311081f70d8b4be1f535632dde7
