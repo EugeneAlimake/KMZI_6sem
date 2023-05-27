@@ -1,0 +1,7 @@
+C:\Users\thesi\Desktop\6\Крипта\10\10 лабораторная работа\10\10\bin\Debug\10.exe.config
+C:\Users\thesi\Desktop\6\Крипта\10\10 лабораторная работа\10\10\bin\Debug\10.exe
+C:\Users\thesi\Desktop\6\Крипта\10\10 лабораторная работа\10\10\bin\Debug\10.pdb
+C:\Users\thesi\Desktop\6\Крипта\10\10 лабораторная работа\10\10\obj\Debug\10.csproj.AssemblyReference.cache
+C:\Users\thesi\Desktop\6\Крипта\10\10 лабораторная работа\10\10\obj\Debug\10.csproj.CoreCompileInputs.cache
+C:\Users\thesi\Desktop\6\Крипта\10\10 лабораторная работа\10\10\obj\Debug\10.exe
+C:\Users\thesi\Desktop\6\Крипта\10\10 лабораторная работа\10\10\obj\Debug\10.pdb

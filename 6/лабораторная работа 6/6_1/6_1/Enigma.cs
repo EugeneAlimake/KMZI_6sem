@@ -11,14 +11,16 @@ namespace ConsoleApp1
         private static readonly string _alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         private static readonly string _rotor1 = "EKMFLGDQVZNTOWYHXUSPAIBRCJ";
         private static readonly string _rotor8 = "FKQHTLXOCBJSPDZRAMEWNIUYGV";
+        private static readonly string _rotor3 = "BDFHJLCPRTXVZNYEIWGAKMUSQO";
+        private static readonly string _rotor7 = "NZJHGRCXMYSWBOUFAIVLPEKQDT";
         private static readonly string _betaRotor = "LEYJVCNIXWPBQMDRTAKZGFUHOS";
         private static readonly string[] _reflectorBDunn = { "AE", "BN", "CK", "DQ", "FU", "GY", "HW", "IJ", "LO", "MP", "RX", "SZ", "TV" };
 
         public string Crypt(string text, int posR, int posM, int posL)
         {
             var rotorR = new Rotor(_rotor1, posR);
-           var rotorM = new Rotor(_rotor8, posM);
-          var rotorL = new Rotor(_betaRotor, posL);
+           var rotorM = new Rotor(_rotor7, posM);
+          var rotorL = new Rotor(_rotor3, posL);
             var result = new StringBuilder(text.Length);
             char symbol;
 

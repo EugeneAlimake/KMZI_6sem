@@ -167,50 +167,31 @@ namespace _7
                     Stopwatch stopwatch = new Stopwatch();
                     stopwatch.Start();
                     string s = "";
-
                     string key = keyword;
-
                     StreamReader sr = new StreamReader("in.txt");
-
-                    while (!sr.EndOfStream)
-                    {
-                        s += sr.ReadLine();
-                    }
-
+                    while (!sr.EndOfStream){s += sr.ReadLine();}
                     sr.Close();
-
                     s = StringToRightLength(s);
-
                     CutStringIntoBlocks(s);
-
                     key = CorrectKeyWord(key, s.Length / (2 * Blocks.Length));
                     key = StringToBinaryFormat(key);
-
                     for (int j = 0; j < quantityOfRounds; j++)
                     {
                         for (int i = 0; i < Blocks.Length; i++)
                             Blocks[i] = EncodeDES_One_Round(Blocks[i], key);
-
                         key = KeyToNextRound(key);
-                        
                     }
                     stopwatch.Stop();
                     Console.WriteLine("Время зашифрования " + stopwatch.ElapsedMilliseconds + " ms");
                     key = KeyToPrevRound(key);
-
                     keydesc = StringFromBinaryToNormalFormat(key);
-
                     string result = "";
-
                     for (int i = 0; i < Blocks.Length; i++)
                         result += Blocks[i];
-                    //Console.WriteLine(result);
                     Console.WriteLine(StringFromBinaryToNormalFormat(result));
                     StreamWriter sw = new StreamWriter("out1.txt");
                     sw.WriteLine(StringFromBinaryToNormalFormat(result));
                     sw.Close();
-
-                    //Process.Start("out1.txt");
                 }
                 else
                     Console.WriteLine("Введите ключевое слово!");
@@ -222,36 +203,20 @@ namespace _7
                     Stopwatch stopwatch2 = new Stopwatch();
                     stopwatch2.Start();
                     string s = "";
-
                     string key = StringToBinaryFormat(keydesc);
-
                     StreamReader sr = new StreamReader("out1.txt");
-
-                    while (!sr.EndOfStream)
-                    {
-                        s += sr.ReadLine();
-                    }
-
+                    while (!sr.EndOfStream){s += sr.ReadLine();}
                     sr.Close();
-
                     s = StringToBinaryFormat(s);
-
                     CutBinaryStringIntoBlocks(s);
-
                     for (int j = 0; j < quantityOfRounds; j++)
                     {
                         for (int i = 0; i < Blocks.Length; i++)
                             Blocks[i] = DecodeDES_One_Round(Blocks[i], key);
-
                         key = KeyToPrevRound(key);
                     }
-
                     key = KeyToNextRound(key);
-
-                    //keyword = StringFromBinaryToNormalFormat(key);
-
                     string result = "";
-
                     for (int i = 0; i < Blocks.Length; i++)
                         result += Blocks[i];
                     Console.WriteLine(StringFromBinaryToNormalFormat(result));
@@ -259,17 +224,10 @@ namespace _7
                     StreamWriter sw = new StreamWriter("out2.txt");
                     sw.WriteLine(StringFromBinaryToNormalFormat(result));
                     sw.Close();
-
-                    //Process.Start("out2.txt");
                 }
               
             }
         }
-        
-        
-        
-        
-
         
     }
   

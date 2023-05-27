@@ -1,0 +1,11 @@
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\bin\Debug\15.exe.config
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\bin\Debug\15.exe
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\bin\Debug\15.pdb
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\bin\Debug\Aspose.Words.dll
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\bin\Debug\Aspose.Words.Pdf2Word.dll
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\bin\Debug\Aspose.Words.xml
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\obj\Debug\15.csproj.AssemblyReference.cache
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\obj\Debug\15.csproj.CoreCompileInputs.cache
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\obj\Debug\15.csproj.CopyComplete
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\obj\Debug\15.exe
+C:\Users\thesi\Desktop\6\Крипта\15\15 лабораторная работа\15\15\obj\Debug\15.pdb

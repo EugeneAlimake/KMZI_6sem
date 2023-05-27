@@ -16,16 +16,15 @@ namespace ConsoleApp1
 
             var enigma = new Enigma();
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append('N');
+            stringBuilder.Append('A');
             
 
             var encoded = enigma.Crypt(stringBuilder.ToString(), 1, 1, 1);
             Console.WriteLine();
 
-              var decoded = enigma.Crypt(encoded, 1, 1, 1);
+            /*  var decoded = enigma.Crypt(encoded, 1, 1, 1);*/
              Console.WriteLine();
-             Console.WriteLine($"Encoded:{encoded}\n" +
-                       $"Decoded:{decoded}");
+             Console.WriteLine($"Encoded:{encoded}\n");
             Console.WriteLine();
 
 
